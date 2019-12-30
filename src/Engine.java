@@ -7,4 +7,14 @@ public class Engine {
         this.engineSpeed = engineSpeed;
         this.enginePower = enginePower;
     }
+
+    public int getEngineSpeed() {
+        return engineSpeed;
+    }
+
+    public int getEnginePower() {
+        return enginePower;
+    }
+
+
 }

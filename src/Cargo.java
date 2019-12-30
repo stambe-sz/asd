@@ -7,4 +7,12 @@ public class Cargo {
         this.cargoWeight = cargoWeight;
         this.cargoType = cargoType;
     }
+
+    public int getCargoWeight() {
+        return cargoWeight;
+    }
+
+    public String getCargoType() {
+        return cargoType;
+    }
 }
